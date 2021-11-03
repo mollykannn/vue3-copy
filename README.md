@@ -1,35 +1,25 @@
-# v-copy
+# vue3-copy
+
+> This is fork from [egoist/v-copy](https://github.com/egoist/v-copy) and now support Vue 3.
 
 Vue directive to copy to clipboard.
 
 ## Install
 
 ```bash
-yarn add v-copy
+yarn add vue3-copy
 ```
-
-CDN: [UNPKG](https://unpkg.com/v-copy/) | [jsDelivr](https://cdn.jsdelivr.net/npm/v-copy/) (It's automatically installed as global directive `v-copy` in CDN)
 
 ## Usage
 
 First register the directive globally:
 
 ```js
-import Copy from 'v-copy'
+import Copy from "vue3-copy";
 
-Vue.use(Copy)
-```
-
-Or locally:
-
-```js
-import { copy } from 'v-copy'
-
-export default {
-  directives: {
-    copy
-  }
-}
+const app = createApp(App);
+app.use(Copy);
+app.mount("#app");
 ```
 
 Then use it in template:
@@ -44,17 +34,17 @@ Then use it in template:
 
 ```vue
 <template>
-  <button 
-    v-copy="`some text`"
-    v-copy:callback="handleCopied">Copy!
-  </button>
+  <button v-copy="`some text`" v-copy:callback="handleCopied">Copy!</button>
 </template>
 
 <script>
 export default {
-  methods: {
-    handleCopied(text) {
+  setup() {
+    function handleCopied(text = "") {
       alert(`Copied: ${text}`)
+    }
+    return {
+      handleCopied
     }
   }
 }
