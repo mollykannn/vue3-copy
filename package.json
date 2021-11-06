@@ -1,10 +1,22 @@
 {
   "name": "vue3-copy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/mollykannn/vue3-copy.git",
-  "author": "Molly Kan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mollykannn/vue3-copy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mollykannn/vue3-copy/issues"
+  },
+  "author": "Molly Kan <mollykannn@gmail.com>",
+  "keywords": [
+    "vue",
+    "vue3",
+    "copy",
+    "clipboard"
+  ],
   "license": "MIT",
   "scripts": {
     "dev": "vite",
