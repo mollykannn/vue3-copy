@@ -961,10 +961,10 @@ upath@^2.0.1:
   resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
-vite-plugin-dts@^0.9.7:
-  version "0.9.7"
-  resolved "https://registry.yarnpkg.com/vite-plugin-dts/-/vite-plugin-dts-0.9.7.tgz#7f9a187ee1cf87a4929f670529a551ecce767985"
-  integrity sha512-XZ/vIv8nNSLTxanxoMw6B8sDXfZfQHKwZsiYZmY7eK11sDzDnEo4VJbYzsgDosTD/JtbOC7NA5TGqqzsstaGGQ==
+vite-plugin-dts@^0.9.9:
+  version "0.9.9"
+  resolved "https://registry.yarnpkg.com/vite-plugin-dts/-/vite-plugin-dts-0.9.9.tgz#e2d263deccc703646c2392c4715fcd64749a3c85"
+  integrity sha512-HzLTCBbsN9gotphtIe97TCigeco6aGLBoeSHdxD9QGGl8prO7uykus0fphLkjWCbFlrerb8Uxp9fu82BfIiaIg==
   dependencies:
     fast-glob "^3.2.7"
     fs-extra "^10.0.0"
