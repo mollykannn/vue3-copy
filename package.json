@@ -24,7 +24,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "copy-text-to-clipboard": "^3.1.0"
+    "copy-text-to-clipboard": "^3.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.4",
