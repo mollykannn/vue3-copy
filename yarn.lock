@@ -237,10 +237,10 @@
     muggle-string "^0.4.1"
     path-browserify "^1.0.1"
 
-"@vue/language-core@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-2.2.2.tgz#aa0e916bf18434077887e8ba269729b45564f625"
-  integrity sha512-QotO41kurE5PLf3vrNgGTk3QswO2PdUFjBwNiOi7zMmGhwb25PSTh9hD1MCgKC06AVv+8sZQvlL3Do4TTVHSiQ==
+"@vue/language-core@2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-2.2.6.tgz#0f0256f7594d1825f84f91a868534700dea55252"
+  integrity sha512-7IQTvwVOvhYSzcizZ2hAdqJjI+SaJS2GO7EnDlSlQ77drwl5UzNa2IZm9pO9MdMxrlw24CGI/Lo3xpCjM26veg==
   dependencies:
     "@volar/language-core" "~2.4.11"
     "@vue/compiler-dom" "^3.5.0"
@@ -952,13 +952,13 @@ vscode-uri@^3.0.8:
   resolved "https://registry.yarnpkg.com/vscode-uri/-/vscode-uri-3.0.8.tgz#1770938d3e72588659a172d0fd4642780083ff9f"
   integrity sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==
 
-vue-tsc@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-2.2.2.tgz#7e3c43dbd3ca3a38e0f04a864bd114ba31098b90"
-  integrity sha512-1icPKkxAA5KTAaSwg0wVWdE48EdsH8fgvcbAiqojP4jXKl6LEM3soiW1aG/zrWrFt8Mw1ncG2vG1PvpZpVfehA==
+vue-tsc@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-2.2.6.tgz#497ac056928a350c9b4b7c2adbf8b0d56db94cce"
+  integrity sha512-TI6eAnWPatONEpVAZt1etbSrh8tDpHOLSlRqKGudOK5WKVnBGzHXUi0KR4UCsf2o5P+5285w4HF+5avhfH7IMA==
   dependencies:
     "@volar/typescript" "~2.4.11"
-    "@vue/language-core" "2.2.2"
+    "@vue/language-core" "2.2.6"
 
 vue@^3.5.13:
   version "3.5.13"
