@@ -586,10 +586,10 @@ ufo@^1.5.4:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.5.4.tgz#16d6949674ca0c9e0fbbae1fa20a71d7b1ded754"
   integrity sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==
 
-unplugin-dts@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/unplugin-dts/-/unplugin-dts-1.0.1.tgz#9ffd538fad8fe887fe9c93e5920a70042fadcacb"
-  integrity sha512-EdJZxdWP4Tm/xhe58/zAge3Tu0OKDYygm8rucRrcCZ4XzgA31jexUKhaJuEMddOPBDs9ONnq6vwigbjeBqkfuw==
+unplugin-dts@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/unplugin-dts/-/unplugin-dts-1.0.2.tgz#5ae51d53ecc99230e9d54976fe2febe7e73bf199"
+  integrity sha512-VbNiMD0LMl/t6nJueGtrCp79N7ZO1nquxj/FUybJDnKwZGsnW2wjdwBSzA3QEHujoxmxZIptsG43hL7LzXE96w==
   dependencies:
     "@rollup/pluginutils" "^5.1.4"
     "@volar/typescript" "^2.4.26"
@@ -610,12 +610,12 @@ unplugin@^2.3.2:
     picomatch "^4.0.3"
     webpack-virtual-modules "^0.6.2"
 
-vite-plugin-dts@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-dts/-/vite-plugin-dts-5.0.1.tgz#fea9dcc8ad16d782fd6bc352e44dd73fa7a28da2"
-  integrity sha512-1L+x8bVPDhlI4kLzRIIGqO+b1VnvtY6CoHrU+riaipHJUAxayM0i1HObqeBv33Svil9hW64Z2KNiOn6UrKWCbA==
+vite-plugin-dts@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-dts/-/vite-plugin-dts-5.0.2.tgz#685a6f7209cea9fae9e4ec02935a3f43f69f4911"
+  integrity sha512-lNeHS+dwGju6eRmNvZQt8Shwv9j3m98hbHse/lIbLq9q3yE2DcIOBBYQEVUF6tS0kOmv+VA9Z5FqmzFnGe4U8g==
   dependencies:
-    unplugin-dts "1.0.1"
+    unplugin-dts "1.0.2"
 
 vite@^2.9.13:
   version "2.9.13"
